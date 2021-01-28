@@ -89,7 +89,7 @@
 .site-header .filters-container {
   display: flex;
   flex-flow: row wrap;
-  margin-top: 30px;
+  margin-top: var(--separation-size);
 }
 
 .site-header .filters-label {

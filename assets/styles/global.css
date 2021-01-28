@@ -4,6 +4,8 @@
   --color-secondary-1: #f2f2f2;
   --color-dark: #222222;
   --color-light: #ffffff;
+
+  --separation-size: 30px;
 }
 
 * {
