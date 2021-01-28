@@ -1,0 +1,52 @@
+.site-header .main-navigation a {
+  text-decoration: none;
+}
+.site-header .main-navigation a:visited {
+  color: inherit;
+}
+
+.site-header .main-navigation {
+  height: 75px;
+}
+
+.site-header .navigation-list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.site-header .nav-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.site-header .nav-item.active::before {
+  content: "";
+  height: 2px;
+  background-color: var(--color-primary-1);
+  width: 100%;
+}
+
+.site-header .nav-item.active .nav-link {
+  color: var(--color-primary-1);
+}
+.site-header .nav-link {
+  margin-top: auto;
+  padding: 0 22px;
+}
+
+.site-header .nav-item.nav-item-accomodations {
+  margin-left: auto;
+}
+
+.site-header .nav-item.nav-item-signup {
+  font-weight: bold;
+  color: var(--color-primary-1);
+}
