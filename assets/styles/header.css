@@ -53,6 +53,12 @@
 
 .site-header .site-title {
   font-size: 1.5rem;
+  margin-top: var(--separation-size);
+  margin-bottom: 7px;
+}
+
+.site-subtitle {
+  margin: 0 0 var(--separation-size) 0;
 }
 
 .site-header .search-bar {
