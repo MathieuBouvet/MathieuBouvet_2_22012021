@@ -134,3 +134,27 @@
 .site-header .filter:hover .filter-label {
   color: var(--color-primary-1);
 }
+
+.site-header .accomodation-info {
+  display: flex;
+  align-items: center;
+  margin-top: var(--separation-size);
+}
+
+.site-header .accomodation-info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid var(--color-secondary-1);
+  color: var(--color-primary-1);
+  font-size: 0.8rem;
+  margin-right: 15px;
+}
+
+.site-header .accomodation-info-text {
+  margin: 0;
+  padding-top: 4px;
+}
