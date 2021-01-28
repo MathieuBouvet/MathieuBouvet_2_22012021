@@ -1,0 +1,14 @@
+:root {
+  --color-primary-1: #0065fc;
+  --color-primary-2: #deebff;
+  --color-secondary-1: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  color: #222222;
+}
