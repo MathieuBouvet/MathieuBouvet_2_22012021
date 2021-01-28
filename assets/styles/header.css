@@ -54,3 +54,34 @@
 .site-header .site-title {
   font-size: 1.5rem;
 }
+
+.site-header .search-bar {
+  display: inline-flex;
+  align-items: center;
+  height: 48px;
+  border: 1px solid var(--color-secondary-1);
+  background-color: var(--color-secondary-1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.site-header .search-icon {
+  padding: 0 15px;
+}
+
+.site-header .search-input {
+  height: 100%;
+  border: none;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.site-header .search-button {
+  background-color: var(--color-primary-1);
+  color: white;
+  border: none;
+  height: 100%;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
