@@ -2,6 +2,7 @@
   display: flex;
   margin-top: var(--separation-size);
   --card-gap: 35px;
+  --card-border-radius: 15px;
   --most-populars-width: 450px;
   --accomodations-width: calc(
     var(--max-content-width) - var(--most-populars-width) - var(--card-gap) - 2 *
@@ -22,7 +23,7 @@
 
 .all-accomodations .card {
   background-color: var(--color-light);
-  border-radius: 15px;
+  border-radius: var(--card-border-radius);
   padding: 5px;
 }
 
@@ -65,7 +66,7 @@
   height: 60%;
   width: 100%;
   object-fit: cover;
-  border-radius: 15px 15px 0 0;
+  border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
 }
 
 .all-accomodations .most-popular-accomodations-title-container {
@@ -87,7 +88,7 @@
 .all-accomodations .most-popular-accomodation-picture {
   height: 100%;
   width: 33%;
-  border-radius: 15px 0 0 15px;
+  border-radius: var(--card-border-radius) 0 0 var(--card-border-radius);
 }
 
 .all-accomodations .most-popular-accomodation-caption {
