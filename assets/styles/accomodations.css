@@ -1,9 +1,12 @@
 .all-accomodations {
   display: flex;
   margin-top: var(--separation-size);
+
   --card-gap: 35px;
   --card-border-radius: 15px;
+
   --most-populars-width: 450px;
+
   --accomodations-width: calc(
     var(--max-content-width) - var(--most-populars-width) - var(--card-gap) - 2 *
       var(--content-horizontal-padding)
@@ -12,21 +15,19 @@
     (var(--accomodations-width) - 4 * var(--card-gap)) / 3
   );
 }
-
 .all-accomodations .fa.fa-star {
   color: var(--color-primary-1);
 }
-
 .all-accomodations .fa.fa-star.empty {
   color: var(--color-secondary-1);
 }
-
 .all-accomodations .card {
   background-color: var(--color-light);
   border-radius: var(--card-border-radius);
   padding: 5px;
 }
 
+/* accomodations styles */
 .all-accomodations .available-accomodations {
   background-color: var(--color-secondary-1);
   border-radius: 15px;
@@ -34,26 +35,11 @@
   margin-right: var(--card-gap);
 }
 
-.all-accomodations .accomodation-caption {
-  flex-grow: 1;
-  padding: 10px 10px 5px 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.all-accomodations .most-popular-accomodations {
-  background-color: var(--color-secondary-1);
-  border-radius: 15px;
-  padding: var(--card-gap);
-  flex: 0 0 var(--most-populars-width);
-}
-
 .all-accomodations .accomodation-container {
   display: flex;
   flex-flow: row wrap;
   gap: var(--card-gap);
 }
-
 .all-accomodations .accomodation {
   display: flex;
   flex-direction: column;
@@ -61,50 +47,57 @@
   height: 240px;
   margin: 0;
 }
-
 .all-accomodations .accomodation-picture {
   height: 60%;
   width: 100%;
   object-fit: cover;
   border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
 }
+.all-accomodations .accomodation-caption {
+  flex-grow: 1;
+  padding: 10px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
 
+/* most popular styles*/
+.all-accomodations .most-popular-accomodations {
+  background-color: var(--color-secondary-1);
+  border-radius: 15px;
+  padding: var(--card-gap);
+  flex: 0 0 var(--most-populars-width);
+}
 .all-accomodations .most-popular-accomodations-title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .all-accomodations .most-popular-accomodations-icon {
   font-size: 1.2rem;
 }
-
 .all-accomodations .most-popular-accomodation {
   display: flex;
   margin: 0 0 var(--card-gap) 0;
   height: 130px;
 }
-
 .all-accomodations .most-popular-accomodation-picture {
   height: 100%;
   width: 33%;
   border-radius: var(--card-border-radius) 0 0 var(--card-border-radius);
 }
-
 .all-accomodations .most-popular-accomodation-caption {
   display: flex;
   flex-direction: column;
   padding: 10px 15px;
 }
 
+/* caption styles */
 .all-accomodations .caption-title {
   margin: 0;
 }
-
 .all-accomodations .caption-text {
   margin: 5px 0 0 0;
 }
-
 .all-accomodations .caption-stars {
   margin-top: auto;
 }
