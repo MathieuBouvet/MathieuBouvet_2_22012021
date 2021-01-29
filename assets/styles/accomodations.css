@@ -3,6 +3,14 @@
   margin-top: var(--separation-size);
 }
 
+.all-accomodations .fa.fa-star {
+  color: var(--color-primary-1);
+}
+
+.all-accomodations .fa.fa-star.empty {
+  color: var(--color-secondary-1);
+}
+
 .all-accomodations .card {
   background-color: var(--color-light);
   border-radius: 15px;
@@ -20,7 +28,7 @@
   background-color: var(--color-secondary-1);
   border-radius: 15px;
   padding: 25px;
-  flex: 0 0 150px;
+  flex: 0 0 450px;
 }
 
 .all-accomodations .accomodation-container {
@@ -39,4 +47,44 @@
   width: 100%;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
+}
+
+.all-accomodations .most-popular-accomodations-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-accomodations .most-popular-accomodations-icon {
+  font-size: 1.2rem;
+}
+
+.all-accomodations .most-popular-accomodation {
+  display: flex;
+  margin: 0 0 25px 0;
+  height: 130px;
+}
+
+.all-accomodations .most-popular-accomodation-picture {
+  height: 100%;
+  width: 33%;
+  border-radius: 15px 0 0 15px;
+}
+
+.all-accomodations .most-popular-accomodation-caption {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.all-accomodations .caption-title {
+  margin: 0;
+}
+
+.all-accomodations .caption-text {
+  margin: 5px 0 0 0;
+}
+
+.all-accomodations .caption-stars {
+  margin-top: auto;
 }
