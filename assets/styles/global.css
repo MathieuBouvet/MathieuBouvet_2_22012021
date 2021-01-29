@@ -6,7 +6,11 @@
   --color-light: #ffffff;
 
   --separation-size: 30px;
-  --max-content-width: 1440px;
+  --desired-width-xl: 1400px;
+  --content-horizontal-padding: 35px;
+  --max-content-width: calc(
+    var(--desired-width-xl) + 2 * var(--content-horizontal-padding)
+  );
 }
 
 * {
@@ -22,4 +26,5 @@ html {
 body {
   max-width: var(--max-content-width);
   margin: auto;
+  padding: 0 var(--content-horizontal-padding);
 }

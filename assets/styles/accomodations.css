@@ -4,10 +4,11 @@
   --card-gap: 35px;
   --most-populars-width: 450px;
   --accomodations-width: calc(
-    var(--max-content-width) - var(--most-populars-width) - var(--card-gap)
+    var(--max-content-width) - var(--most-populars-width) - var(--card-gap) - 2 *
+      var(--content-horizontal-padding)
   );
   --accomodation-card-width: calc(
-    (var(--accomodations-width) - (4 * var(--card-gap))) / 3
+    (var(--accomodations-width) - 4 * var(--card-gap)) / 3
   );
 }
 
