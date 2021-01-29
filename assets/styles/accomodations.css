@@ -1,0 +1,42 @@
+.all-accomodations {
+  display: flex;
+  margin-top: var(--separation-size);
+}
+
+.all-accomodations .card {
+  background-color: var(--color-light);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.all-accomodations .available-accomodations {
+  background-color: var(--color-secondary-1);
+  border-radius: 15px;
+  padding: 25px;
+  margin-right: 25px;
+}
+
+.all-accomodations .most-popular-accomodations {
+  background-color: var(--color-secondary-1);
+  border-radius: 15px;
+  padding: 25px;
+  flex: 0 0 150px;
+}
+
+.all-accomodations .accomodation-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.all-accomodations .accomodation {
+  width: 250px;
+  height: 300px;
+  margin: 0 25px 25px 0;
+}
+
+.all-accomodations .accomodation-picture {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
