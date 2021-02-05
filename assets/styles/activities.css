@@ -1,0 +1,69 @@
+#activities {
+  width: 100%;
+  margin-top: 30px; /* separation-size */
+}
+
+figure {
+  margin: 0;
+}
+
+#activities-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px; /* card-gap */
+}
+
+#activities .activity {
+  width: 323px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#activities .activity:hover img {
+  transform: scale(1.1);
+}
+
+#activities .picture-wrapper {
+  flex: auto;
+  overflow: hidden;
+}
+
+#activities .activity img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+#activities .activity figcaption {
+  padding: 15px;
+}
+
+#activities .one-activity,
+#activities .one-activity {
+  height: 440px;
+}
+
+#activities .one-activity .activity {
+  height: 100%;
+}
+
+#activities .two-activities .activity:first-child {
+  margin-bottom: 35px;
+}
+
+#activities .two-activities .half-size {
+  height: 202px;
+}
+
+#pomegue-fort {
+  height: 243px;
+}
+
+#frioul-islands {
+  height: 162px;
+}
