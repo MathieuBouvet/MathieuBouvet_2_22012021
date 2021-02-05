@@ -28,3 +28,22 @@ body {
   margin: auto;
   padding: 0 var(--content-horizontal-padding);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin-top: var(--separation-size);
+  margin-bottom: 7px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
