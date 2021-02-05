@@ -33,6 +33,7 @@
 #all-accomodations .accomodation-link {
   text-decoration: none;
   color: inherit;
+  flex: 1 1 258px;
 }
 
 /* accomodations styles */
@@ -51,7 +52,6 @@
 #all-accomodations .accomodation {
   display: flex;
   flex-direction: column;
-  width: 258px;
   height: 240px;
   margin: 0;
 }
