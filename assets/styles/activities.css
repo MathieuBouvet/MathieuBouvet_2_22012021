@@ -14,7 +14,7 @@ figure {
 }
 
 #activities .activity {
-  width: 323px;
+  /* width: 323px; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -44,8 +44,9 @@ figure {
 }
 
 #activities .one-activity,
-#activities .one-activity {
+#activities .two-activities {
   height: 440px;
+  flex: 1 1 250px;
 }
 
 #activities .one-activity .activity {
