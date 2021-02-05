@@ -1,0 +1,21 @@
+#site-footer {
+  margin-top: 30px;
+  padding: 50px 35px;
+  background-color: #f2f2f2;
+}
+#footer-wrapper {
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+}
+#site-footer section {
+  flex: auto;
+}
+#site-footer .footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+#site-footer .footer-list li {
+  margin: 15px 0;
+}
