@@ -1,15 +1,15 @@
-.site-header .main-navigation a {
+#main-navigation a {
   text-decoration: none;
 }
-.site-header .main-navigation a:visited {
+#main-navigation a:visited {
   color: inherit;
 }
 
-.site-header .main-navigation {
+#main-navigation {
   height: 75px;
 }
 
-.site-header .navigation-list {
+#navigation-list {
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
@@ -20,48 +20,48 @@
   height: 100%;
 }
 
-.site-header .nav-item {
+#site-header .nav-item {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 15px;
 }
-.site-header .nav-item.active::before {
+#site-header .nav-item.active::before {
   content: "";
   height: 2px;
   background-color: var(--color-primary-1);
   width: 100%;
 }
 
-.site-header .nav-item.active .nav-link {
+#site-header .nav-item.active .nav-link {
   color: var(--color-primary-1);
 }
-.site-header .nav-link {
+#site-header .nav-link {
   margin-top: auto;
   padding: 0 22px;
 }
 
-.site-header .nav-item.nav-item-accomodations {
+#site-header .nav-item.nav-item-accomodations {
   margin-left: auto;
 }
 
-.site-header .nav-item.nav-item-signup {
+#site-header .nav-item.nav-item-signup {
   font-weight: bold;
   color: var(--color-primary-1);
 }
 
-.site-header .site-title {
+#site-header .site-title {
   font-size: 1.5rem;
   margin-top: var(--separation-size);
   margin-bottom: 7px;
 }
 
-.site-subtitle {
+#site-subtitle {
   margin: 0 0 var(--separation-size) 0;
 }
 
-.site-header .search-bar {
+#search-bar {
   display: inline-flex;
   align-items: center;
   height: 48px;
@@ -71,18 +71,18 @@
   overflow: hidden;
 }
 
-.site-header .search-icon {
+#search-icon {
   padding: 0 15px;
 }
 
-.site-header .search-input {
+#search-input {
   height: 100%;
   border: none;
   padding: 7px;
   font-weight: bold;
 }
 
-.site-header .search-button {
+#search-button {
   background-color: var(--color-primary-1);
   color: var(--color-light);
   border: none;
@@ -92,18 +92,18 @@
   cursor: pointer;
 }
 
-.site-header .filters-container {
+#site-header #filters-container {
   display: flex;
   flex-flow: row wrap;
   margin-top: var(--separation-size);
 }
 
-.site-header .filters-label {
+#filters-label {
   font-weight: bold;
   margin-right: 35px;
 }
 
-.site-header .filter {
+#site-header .filter {
   display: flex;
   align-items: center;
   border: 2px solid var(--color-secondary-1);
@@ -113,7 +113,7 @@
   cursor: pointer;
 }
 
-.site-header .filter-icon {
+#site-header .filter-icon {
   background-color: var(--color-primary-2);
   color: var(--color-primary-1);
   display: flex;
@@ -126,7 +126,7 @@
   transition: transform 0.3s;
 }
 
-.site-header .filter-label {
+#site-header .filter-label {
   display: flex;
   align-items: center;
   height: 100%;
@@ -134,20 +134,20 @@
   font-weight: bold;
 }
 
-.site-header .filter:hover .filter-icon {
+#site-header .filter:hover .filter-icon {
   transform: scale(1.3);
 }
-.site-header .filter:hover .filter-label {
+#site-header .filter:hover .filter-label {
   color: var(--color-primary-1);
 }
 
-.site-header .accomodation-info {
+#site-header #accomodation-info {
   display: flex;
   align-items: center;
   margin-top: var(--separation-size);
 }
 
-.site-header .accomodation-info-icon {
+#accomodation-info-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,7 +160,7 @@
   margin-right: 15px;
 }
 
-.site-header .accomodation-info-text {
+#accomodation-info-text {
   margin: 0;
   padding-top: 4px;
 }
