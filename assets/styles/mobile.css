@@ -1,0 +1,89 @@
+/* SMALL SCREENS */
+@media (max-width: 576px) {
+  /* HEADER STYLES */
+  #navigation-list {
+    justify-content: space-between;
+  }
+
+  /* set the order to position the signup */
+  #site-header .nav-item {
+    order: 2;
+    flex: 1 1 50%;
+    text-align: center;
+  }
+
+  /* the little grey bar below */
+  #site-header .nav-item:not(#nav-item-signup)::after {
+    content: "";
+    margin-top: 5px;
+    height: 2px;
+    background-color: #f2f2f2;
+    width: 100%;
+  }
+
+  #logo {
+    flex: 1 1 50%;
+  }
+
+  /* expand the bar below to the left*/
+  #nav-item-accomodations::after {
+    transform-origin: center right;
+    transform: scaleX(2);
+  }
+  /* expand the bar below to the right*/
+  #nav-item-activities::after {
+    transform-origin: center left;
+    transform: scaleX(2);
+  }
+
+  /* signup is before other nav-items */
+  #site-header #nav-item-signup {
+    order: 1;
+    text-align: right;
+  }
+
+  /* reset the nav items border of larger screens */
+  #site-header .nav-item.active::before {
+    content: none;
+  }
+  #site-header .nav-item.active:not(#nav-item-signup)::after {
+    background-color: #0065fc; /* color-primary-1 */
+  }
+
+  #site-header .nav-link {
+    padding: 0;
+  }
+
+  #all-accomodations {
+    flex-wrap: wrap;
+  }
+}
+
+/* XS SCREENS */
+@media (max-width: 300px) {
+  /* HEADER STYLES */
+
+  #logo {
+    text-align: center;
+  }
+
+  #site-header .nav-item {
+    flex: 1 0 100%;
+    text-align: center;
+  }
+
+  #site-header #nav-item-signup {
+    text-align: center;
+  }
+
+  /* expand the bar below in both directions*/
+  #site-header #nav-item-accomodations::after {
+    transform-origin: center;
+    transform: scaleX(2);
+  }
+  /* expand the bar below in both directions*/
+  #site-header #nav-item-activities::after {
+    transform-origin: center;
+    transform: scaleX(2);
+  }
+}
