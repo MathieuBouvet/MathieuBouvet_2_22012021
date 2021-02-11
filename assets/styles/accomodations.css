@@ -74,11 +74,24 @@
   border-radius: 15px;
   padding: 35px; /* card-gap */
   flex: 0 0 450px;
+  display: flex;
+  flex-direction: column;
 }
 #most-popular-accomodations-title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#most-popular-accomodations .accomodation-link {
+  flex: 1 1 50px;
+  margin-bottom: 35px;
+  overflow: hidden;
+  padding: 15px;
+  margin: -15px;
+  margin-bottom: 20px;
+}
+#most-popular-accomodations .accomodation-link:last-child {
+  margin: -15px;
 }
 #most-popular-accomodations-icon {
   font-size: 1.2rem;
@@ -86,8 +99,7 @@
 }
 #all-accomodations .most-popular-accomodation {
   display: flex;
-  margin: 0 0 35px 0; /* card-gap */
-  height: 130px;
+  height: 100%;
 }
 #all-accomodations .most-popular-picture-wrapper {
   flex: 0 0 auto;
