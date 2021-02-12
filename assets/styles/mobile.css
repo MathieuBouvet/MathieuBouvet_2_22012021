@@ -143,6 +143,17 @@
   #activities .two-activities .half-size {
     height: 212px;
   }
+
+  /* FOOTER STYLES */
+  #site-footer {
+    padding: 0 15px;
+  }
+  #footer-wrapper {
+    flex-direction: column;
+  }
+  #footer-wrapper > section {
+    margin-top: 25px;
+  }
 }
 
 /* XS SCREENS */
