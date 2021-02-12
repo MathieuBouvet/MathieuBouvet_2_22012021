@@ -4,6 +4,9 @@
   html {
     font-size: 13px;
   }
+  main {
+    margin: 0 15px;
+  }
   /* HEADER STYLES */
   #navigation-list {
     justify-content: space-between;
@@ -99,7 +102,7 @@
     order: 2;
     background-color: initial;
     padding: 0;
-    margin: 35px -35px 0 -35px;
+    margin: 35px -15px 0 -15px;
     padding: 16px;
   }
   #available-accomodations .accomodation-link {
@@ -109,7 +112,7 @@
   #most-popular-accomodations {
     flex: 1 1 auto;
     height: 500px;
-    margin: 0 -35px;
+    margin: 0 -15px;
     padding: 35px 15px;
     border-radius: 0;
   }
