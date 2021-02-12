@@ -119,6 +119,30 @@
   #most-popular-accomodations .accomodation-link {
     margin-bottom: 0px;
   }
+
+  /* ACTIVITIES STYLES */
+  #activities {
+    margin: 35px -0;
+  }
+  #activities-wrapper {
+    margin: 0;
+  }
+
+  #activities .one-activity,
+  #activities .two-activities {
+    margin: 8px 0;
+  }
+  #activities .two-activities .activity:first-child {
+    margin-bottom: 15px;
+  }
+
+  #frioul-islands {
+    height: 182px;
+  }
+
+  #activities .two-activities .half-size {
+    height: 212px;
+  }
 }
 
 /* XS SCREENS */
