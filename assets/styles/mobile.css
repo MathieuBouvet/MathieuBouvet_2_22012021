@@ -1,5 +1,9 @@
 /* SMALL SCREENS */
 @media (max-width: 576px) {
+  /* GLOBAL STYLES */
+  html {
+    font-size: 13px;
+  }
   /* HEADER STYLES */
   #navigation-list {
     justify-content: space-between;
@@ -54,6 +58,22 @@
     padding: 0;
   }
 
+  /* SEARCH BAR STYLES */
+  #search-button-desktop {
+    display: none;
+  }
+  #search-button-mobile {
+    display: block;
+    border-radius: 15px;
+  }
+  #search-bar {
+    width: 100%;
+  }
+  #search-input {
+    flex: 1 1 auto;
+  }
+
+  /* ACCOMODATIONS STYLE */
   #all-accomodations {
     flex-wrap: wrap;
   }
