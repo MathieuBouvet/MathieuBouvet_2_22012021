@@ -73,6 +73,20 @@
     flex: 1 1 auto;
   }
 
+  /* FILTERS STYLES */
+  #filters-label {
+    width: 100%;
+  }
+  #site-header .filter {
+    margin: 5px 5px 5px 0;
+  }
+  #site-header .filter-icon {
+    transform: scale(1.05);
+  }
+  #site-header .filter-label {
+    margin: 0 12px;
+  }
+
   /* ACCOMODATIONS STYLE */
   #all-accomodations {
     flex-wrap: wrap;
