@@ -92,11 +92,18 @@
     flex-wrap: wrap;
   }
 
+  #accomodation-container {
+    margin: -8px;
+  }
   #available-accomodations {
     order: 2;
     background-color: initial;
     padding: 0;
-    margin: 35px 0 0 0;
+    margin: 35px -35px 0 -35px;
+    padding: 16px;
+  }
+  #available-accomodations .accomodation-link {
+    margin: 8px;
   }
 
   #most-popular-accomodations {
