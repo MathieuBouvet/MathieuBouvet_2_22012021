@@ -33,7 +33,6 @@
 #all-accomodations .accomodation-link {
   text-decoration: none;
   color: inherit;
-  flex: 1 1 258px;
 }
 
 /* accomodations styles */
@@ -43,11 +42,15 @@
   padding: 35px; /* card-gap */
   margin-right: 35px; /* card-gap */
 }
+#available-accomodations .accomodation-link {
+  flex: 1 1 258px;
+  margin: 17px;
+}
 
 #accomodation-container {
   display: flex;
   flex-flow: row wrap;
-  gap: 35px; /* card-gap */
+  margin: -17px;
 }
 #all-accomodations .accomodation {
   display: flex;

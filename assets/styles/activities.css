@@ -10,7 +10,7 @@ figure {
 #activities-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px; /* card-gap */
+  margin: -17px; /* card-gap */
 }
 
 #activities .activity {
@@ -47,6 +47,7 @@ figure {
 #activities .two-activities {
   height: 440px;
   flex: 1 1 250px;
+  margin: 17px;
 }
 
 #activities .one-activity .activity {
