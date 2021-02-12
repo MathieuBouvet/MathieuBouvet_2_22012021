@@ -91,6 +91,24 @@
   #all-accomodations {
     flex-wrap: wrap;
   }
+
+  #available-accomodations {
+    order: 2;
+    background-color: initial;
+    padding: 0;
+    margin: 35px 0 0 0;
+  }
+
+  #most-popular-accomodations {
+    flex: 1 1 auto;
+    height: 500px;
+    margin: 0 -35px;
+    padding: 35px 15px;
+    border-radius: 0;
+  }
+  #most-popular-accomodations .accomodation-link {
+    margin-bottom: 0px;
+  }
 }
 
 /* XS SCREENS */
