@@ -19,6 +19,7 @@ html {
   color: #222222; /* color-dark */
   font-family: Raleway, sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
