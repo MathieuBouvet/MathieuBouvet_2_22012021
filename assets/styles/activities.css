@@ -14,7 +14,6 @@ figure {
 }
 
 #activities .activity {
-  /* width: 323px; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -29,6 +28,7 @@ figure {
 
 #activities .picture-wrapper {
   flex: auto;
+  height: 100%;
   overflow: hidden;
 }
 

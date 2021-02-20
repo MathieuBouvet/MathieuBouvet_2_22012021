@@ -92,6 +92,7 @@
   padding: 15px;
   margin: -15px;
   margin-bottom: 20px;
+  max-height: 225px;
 }
 #most-popular-accomodations .accomodation-link:last-child {
   margin: -15px;

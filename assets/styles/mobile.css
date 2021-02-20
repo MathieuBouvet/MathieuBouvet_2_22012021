@@ -1,5 +1,5 @@
 /* SMALL SCREENS */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   /* GLOBAL STYLES */
   html {
     font-size: 13px;
@@ -111,7 +111,7 @@
 
   #most-popular-accomodations {
     flex: 1 1 auto;
-    height: 500px;
+    height: 550px;
     margin: 0 -15px;
     padding: 35px 15px;
     border-radius: 0;
@@ -131,6 +131,7 @@
   #activities .one-activity,
   #activities .two-activities {
     margin: 8px 0;
+    flex-basis: 100%;
   }
   #activities .two-activities .activity:first-child {
     margin-bottom: 15px;
