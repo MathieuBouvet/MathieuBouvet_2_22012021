@@ -54,3 +54,7 @@ h2 {
 main {
   margin: 0 35px;
 }
+
+.text-bold {
+  font-weight: bold;
+}
