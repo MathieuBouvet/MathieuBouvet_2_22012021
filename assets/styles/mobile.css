@@ -8,6 +8,10 @@
     margin: 0 15px;
   }
   /* HEADER STYLES */
+
+  #site-header {
+    margin: 0 15px;
+  }
   #navigation-list {
     justify-content: space-between;
   }
