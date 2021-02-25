@@ -43,7 +43,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  #activities .two-activities:last-child .activity {
+  #activities .two-activities:last-child .activity-link {
     flex: 1 1 350px;
   }
   #good-mother {
