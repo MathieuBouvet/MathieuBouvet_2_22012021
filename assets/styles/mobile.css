@@ -107,8 +107,7 @@
     order: 2;
     background-color: initial;
     padding: 0;
-    margin: 35px -15px 0 -15px;
-    padding: 16px;
+    margin: 35px 0 0 0;
   }
   #available-accomodations .accomodation-link {
     margin: 8px;
