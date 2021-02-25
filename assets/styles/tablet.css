@@ -46,14 +46,14 @@
   #activities .two-activities:last-child .activity-link {
     flex: 1 1 350px;
   }
-  #good-mother {
-    margin-right: 35px;
+  #good-mother-link {
+    margin-right: 0;
   }
 }
 
 /* FOR SPECIFIC CASE OF ACTIVITIES LAYOUT */
-@media (min-width: 600px) and (max-width: 887px) {
-  #good-mother {
-    margin-right: 0;
+@media (min-width: 888px) and (max-width: 1171px) {
+  #good-mother-link {
+    margin-right: 35px;
   }
 }
